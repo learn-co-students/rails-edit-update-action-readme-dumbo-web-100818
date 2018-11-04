@@ -1,0 +1,7 @@
+<%=form_for @post do |p|%>
+<%=p.label "Post Title"%>
+<%=p.text_field :title%>
+<%=p.label "Post Description"%>
+<%=p.text_area :description%>
+<%=p.submit "Submit Post"%>
+<%end%>
